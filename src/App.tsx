@@ -1401,7 +1401,7 @@ export default function App() {
   const [teachers, setTeachers] = useState<Teacher[]>([]);
   const [articles, setArticles] = useState<Article[]>([]);
   const [stats, setStats] = useState<Stat[]>([]);
-  const [schoolName, setSchoolName] = useState('SD Harapan Bangsa');
+  const [schoolName, setSchoolName] = useState('SD Negeri Kadu 3');
   const [heroImage, setHeroImage] = useState('https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
   const [visi, setVisi] = useState('Terwujudnya peserta didik yang beriman, cerdas, terampil, mandiri, dan berwawasan global.');
   const [misi, setMisi] = useState([
@@ -1413,7 +1413,7 @@ export default function App() {
   const [registrationLink, setRegistrationLink] = useState('#');
   const [contactAddress, setContactAddress] = useState('Jl. Pendidikan No. 123, Jakarta Selatan, DKI Jakarta 12345');
   const [contactPhone, setContactPhone] = useState('(021) 1234-5678');
-  const [contactEmail, setContactEmail] = useState('info@sdharapanbangsa.sch.id');
+  const [contactEmail, setContactEmail] = useState('info@sdnkadu3.sch.id');
   const [socialFacebook, setSocialFacebook] = useState('#');
   const [socialInstagram, setSocialInstagram] = useState('#');
   const [socialTwitter, setSocialTwitter] = useState('#');
@@ -1546,8 +1546,8 @@ export default function App() {
 
       if (!localStorage.getItem('articles')) {
         const mockArticles = [
-          { id: 1, title: 'Penerimaan Siswa Baru 2024', content: 'SD Harapan Bangsa membuka pendaftaran siswa baru untuk tahun ajaran 2024/2025. Segera daftarkan putra-putri Anda!', imageUrl: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', date: '2024-01-01', author: 'Admin' },
-          { id: 2, title: 'Juara 1 Lomba Cerdas Cermat', content: 'Selamat kepada tim cerdas cermat SD Harapan Bangsa yang telah meraih juara 1 tingkat kecamatan.', imageUrl: 'https://images.unsplash.com/photo-1577896335477-2858506f970d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', date: '2024-02-15', author: 'Admin' }
+          { id: 1, title: 'Penerimaan Siswa Baru 2024', content: 'SD Negeri Kadu 3 membuka pendaftaran siswa baru untuk tahun ajaran 2024/2025. Segera daftarkan putra-putri Anda!', imageUrl: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', date: '2024-01-01', author: 'Admin' },
+          { id: 2, title: 'Juara 1 Lomba Cerdas Cermat', content: 'Selamat kepada tim cerdas cermat SD Negeri Kadu 3 yang telah meraih juara 1 tingkat kecamatan.', imageUrl: 'https://images.unsplash.com/photo-1577896335477-2858506f970d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', date: '2024-02-15', author: 'Admin' }
         ];
         setArticles(mockArticles);
         localStorage.setItem('articles', JSON.stringify(mockArticles));
@@ -1566,7 +1566,7 @@ export default function App() {
       
       if (!localStorage.getItem('settings')) {
          const mockSettings = {
-            school_name: 'SD Harapan Bangsa',
+            school_name: 'SD Negeri Kadu 3',
             hero_image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80',
             visi: 'Terwujudnya peserta didik yang beriman, cerdas, terampil, mandiri, dan berwawasan global.',
             misi: JSON.stringify([
