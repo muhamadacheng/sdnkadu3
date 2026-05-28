@@ -1402,7 +1402,7 @@ export default function App() {
   const [articles, setArticles] = useState<Article[]>([]);
   const [stats, setStats] = useState<Stat[]>([]);
   const [schoolName, setSchoolName] = useState('SD Negeri Kadu 3');
-  const [heroImage, setHeroImage] = useState('https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+  const [heroImage, setHeroImage] = useState('https://www.image2url.com/r2/default/images/1779941907670-c813a795-dee0-40f5-9e7f-0de299738cf1.jpeg=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
   const [visi, setVisi] = useState('Terwujudnya peserta didik yang beriman, cerdas, terampil, mandiri, dan berwawasan global.');
   const [misi, setMisi] = useState([
     'Melaksanakan pembelajaran yang aktif, kreatif, dan menyenangkan.',
@@ -1566,7 +1566,7 @@ export default function App() {
       
       if (!localStorage.getItem('settings')) {
          const mockSettings = {
-            school_name: 'SD Negeri Kadu 3',
+            school_name: 'SD Negeri Kadu III',
             hero_image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80',
             visi: 'Terwujudnya peserta didik yang beriman, cerdas, terampil, mandiri, dan berwawasan global.',
             misi: JSON.stringify([
